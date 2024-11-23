@@ -2,160 +2,48 @@ HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My   
  Portfolio</title>
-    <link rel="stylesheet" href="style.css">   
+  <link rel="stylesheet" href="style.css">   
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <header>
-        <div class="container">   
+  <header>
+    <div class="container">   
 
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="achievements.html">Achievements</a></li>
-                    <li><a href="goals.html">Goals</a></li>
-                    <li><a href="advocacy.html">Advocacy</a></li>
-                </ul>
-            </nav>
+      <div id="branding">
+        <h1>Your Name</h1> 
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="goals.html">Goals</a></li>
+          <li><a href="advocacy.html">Advocacy</a></li>
+          <li><a href="#">EN</a></li> 
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>HELLO</h1>
+          <p>A brief, engaging introduction about yourself. You can mention your skills, interests, or aspirations.</p>
+          <button class="play-button">PLAY VIDEO</button> 
         </div>
-    </header>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-line"></div>
+      </div>
+    </div>
+  </section>
 
-    <section class="hero" style="background-image: url('images/hero-bg.jpg');"> 
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Your Name</h1>
-                    <p>Your Title/Tagline</p>
-                    <p>A brief, engaging introduction about yourself.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-            </div>   
-
-        </div>
-    </section>
-
-    <main>
-        <section class="about">
-            <div class="container">
-                <h2>About Me</h2>
-                <p>Detailed description about yourself.</p>
-            </div>
-        </section>
-
-        <section class="skills">
-            <div class="container">
-                <h2>Skills</h2>
-                <div class="skill">
-                    <div class="skill-name">HTML</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 90%;"></div> 
-                    </div>
-                </div>
-                </div>
-        </section>
-
-        <section class="education">
-            <div class="container">
-                <h2>Education</h2>
-                <div class="accordion">
-                    <div class="accordion-item">
-                        <div class="accordion-header">Your Degree Title</div>
-                        <div class="accordion-content">
-                            <p>Details about your education.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="experience">
-            <div class="container">
-                <h2>Experience</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-date">2020 - Present</div>
-                        <div class="timeline-content">
-                            <h3>Your Job Title</h3>
-                            <p>Company Name</p>
-                            <p>Description of your role and responsibilities.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="portfolio">
-            <div class="container">
-                <h2>Portfolio</h2>
-                <div class="portfolio-grid">
-                    <div class="portfolio-item">
-                        <img   
- src="images/portfolio1.jpg" alt="Portfolio Item 1">
-                        <div class="portfolio-overlay">
-                            <h3>Project Title</h3>
-                            <p>Short description.</p>
-                            <a href="#" class="btn">View Project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="blog">
-            <div class="container">
-                <h2>Blog</h2>
-                <div class="blog-grid">
-                    <div class="blog-post">
-                        <img src="images/blog1.jpg" alt="Blog Post 1">
-                        <h3>Blog Post Title</h3>
-                        <p>Short excerpt from the blog post.</p>
-                        <a href="#" class="btn">Read More</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="contact">
-            <div class="container">
-                <h2>Contact</h2>
-                <form action="#" method="post">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text"   
- id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>   
-
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-            </div>
-        </section>   
-
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Your Name</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script> 
-</body>
+  </body>
 </html>
