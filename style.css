@@ -1,106 +1,71 @@
-/* General Styling */
+/* Basic Styling */
 body {
-  font-family: 'Arial', sans-serif; 
-  margin: 0;
-  background-color: #0B0C10; 
-  color: #C5C6C7; 
-  line-height: 1.6;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-.container {
-  max-width: 960px;
-  margin: auto;
-  overflow: hidden;
-  padding: 0 20px;
-}
-
-/* Header Styles */
 header {
-  background-color: #0B0C10;
-  color: #C5C6C7;
-  padding: 20px 0; 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding:   
+ 1em 0;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 24px; 
+nav ul {
+    padding: 0;
+    list-style: none;
 }
 
-header nav ul {
-  list-style:   
- none;
-  margin: 0;
-  padding: 0;
-  display: flex; 
+nav ul li {
+    display: inline;
+    margin: 0 20px;
 }
 
-header nav li {
-  margin-left: 20px;
+nav a {
+    color: #fff;
+    text-decoration: none;
 }
 
-header   
- a {
-  color: #C5C6C7;
-  text-decoration: none;
+main {
+    padding: 20px;
 }
 
-/* Hero Styles */
-.hero {
-  background-color: #0B0C10; 
-  background-image: url("images/hero-bg.jpg"); 
-  background-size: cover;
-  background-position: center;
-  min-height: 600px; 
-  display: flex;
-  align-items: center; 
-  text-align: center; 
+section {
+    margin-bottom: 20px;
 }
 
-.hero-content {
-  padding: 20px; 
+h2 {
+    color: #333;
 }
 
-.hero h1 {
-  color: #66FCF1; 
-  font-size: 6em; 
-  margin-bottom: 20px;
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-.hero p {
-  font-size: 1.2em; 
-  line-height: 1.6; 
-  margin-bottom: 30px;
+/* Colorful Sections */
+#home {
+    background-color: #e9d8a6; /* Light Yellow */
 }
 
-.play-button {
-  background-color: transparent; 
-  color: #66FCF1; 
-  border: 2px solid #66FCF1; 
-  padding: 12px 24px; 
-  font-size: 1em; 
-  cursor: pointer; 
-  transition: background-color 0.3s, color 0.3s; 
+/* Add more styles for other sections (achievements, goals, advocacy) */
+#achievements {
+    background-color: #a5d6a7; /* Light Green */
 }
 
-.play-button:hover {
-  background-color: #66FCF1; 
-  color: #0B0C10; 
+#goals {
+    background-color: #90caf9; /* Light Blue */
 }
 
-.scroll-indicator {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.scroll-line {
-  width: 40px;
-  height: 2px;
-  background-color: #C5C6C7;
-  margin: 5px auto; 
-  border-radius: 2px; 
+#advocacy {
+    background-color: #f48fb1; /* Light Pink */
 }
